@@ -1,0 +1,220 @@
+(footprint "2204529-2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "2204529-2-2")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 5.7 -6.625 0)
+		(layer "F.SilkS")
+		(uuid "a49dc4db-92e6-4e51-9948-c41edbf9b4a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PowerConnector 1x03"
+		(at 5.7 -6.625 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "499a3f44-27ea-4e44-b668-d8fd01220d3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc8a42ba-668b-4fd0-9bcd-17515fbf42e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10c01567-3902-4eee-a8bf-c84c073428cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.635 -15.3)
+		(end 16.035 -15.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3fd4a31-d506-4a85-8d23-a9d095cc4b62")
+	)
+	(fp_line
+		(start -4.635 2.05)
+		(end -4.635 -15.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c803b876-baf6-4f9f-be50-725bce444f0e")
+	)
+	(fp_line
+		(start 16.035 -15.3)
+		(end 16.035 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "819968ab-04c9-4cb8-ae2b-2ac6dbecfdf0")
+	)
+	(fp_line
+		(start 16.035 2.05)
+		(end -4.635 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3564b623-5004-4812-a30a-77e43c6229c6")
+	)
+	(fp_line
+		(start -3.4 -14.3)
+		(end -3.4 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14ec41f0-e9c8-40b3-9b00-b10def2e96fd")
+	)
+	(fp_line
+		(start -3.4 0.6)
+		(end 14.8 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d22f4ea7-a040-43ea-9d00-f6252c12320b")
+	)
+	(fp_line
+		(start 14.8 -14.3)
+		(end -3.4 -14.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6e3f25b-d327-49e9-b043-d93e80dbdaf7")
+	)
+	(fp_line
+		(start 14.8 0.6)
+		(end 14.8 -14.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d45057e-1066-43bc-8ade-5d696e72acd4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.7 -6.625 0)
+		(layer "F.Fab")
+		(uuid "a2f7d71f-39bc-4d12-a965-2e193d8b2de4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.26 -4.3)
+		(size 2.75 2.75)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "6eb88950-f861-43d0-b449-d6daea05c9b4")
+	)
+	(pad "" np_thru_hole circle
+		(at 13.66 -4.3)
+		(size 2.75 2.75)
+		(drill 2.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "679d3686-633c-4083-aab9-a46a4df22875")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.3)
+		(size 2.1 2.1)
+		(drill 1.56)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f379eee4-4244-4486-a84d-527082e6eef1")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.1 2.1)
+		(drill 1.56)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ba24d65-6281-42e3-a714-9c77d731dc50")
+	)
+	(pad "2" thru_hole circle
+		(at 5.7 -2.3)
+		(size 2.1 2.1)
+		(drill 1.56)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4fb5ed04-1d86-4d85-a29d-563bdb879d24")
+	)
+	(pad "2" thru_hole circle
+		(at 5.7 0)
+		(size 2.1 2.1)
+		(drill 1.56)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6eaede83-dc63-439d-8800-480f284d902d")
+	)
+	(pad "3" thru_hole circle
+		(at 11.4 -2.3)
+		(size 2.1 2.1)
+		(drill 1.56)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37d67918-20d7-4ef2-beff-ddeea773f025")
+	)
+	(pad "3" thru_hole circle
+		(at 11.4 0)
+		(size 2.1 2.1)
+		(drill 1.56)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "493b1808-4b29-43c4-8962-37d27497e942")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Control Unit.pretty/c-2204529-2-b1-3d-combined.step"
+		(offset
+			(xyz 5.869999797 14.20999982 4.610000064)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)
