@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SSM3J355R,LF_T
+D Mosfet, P-Ch, 20V, 6A, Sot-23F Rohs Compliant: Yes |Toshiba SSM3J355R, LF(T
+K
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=55743&prodName=SSM3J355R
+$ENDCMP
+#
+#End Doc Library
